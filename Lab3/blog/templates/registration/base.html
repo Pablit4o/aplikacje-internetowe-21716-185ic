@@ -1,0 +1,60 @@
+{% load static %}
+<html>
+    <head>
+        <title>
+          {% block title %}
+            Django blog
+          {% endblock %}
+        </title>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="{% static 'img/icon.jpg' %}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{% static 'css/registration.css' %}">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="{% url 'post_list' %}">Django Blog</a>
+          </div>
+                {% if user.is_authenticated %}
+                <ul class="nav navbar-nav">
+                  <li class="nav-item">
+                    <a href="{% url 'post_new' %}">Add Post: <span class="glyphicon glyphicon-plus"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="{% url 'password_change' %}">Change Password <span class="glyphicon glyphicon-edit"></span></a>
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="nav-item">
+                    <p style="color:#9d9d9d;padding:15px;margin:0px;">Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
+                  </li>
+                </ul>
+                {% else %}
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="nav-item">
+                    <a href="{% url 'login' %}">Log in: <span class="glyphicon glyphicon-lock"></span></a>
+                  </li>
+                </ul>
+                {% endif %}
+          </div>
+      </nav>
+
+      <div class="relative">
+        <div class="flex justify-center absolute inset-x-0 top-0 items-center">
+          <div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
+            {% block content %}
+            {% endblock %}
+          </div>
+        </div>
+      </div>
+
+
+
+    </body>
+</html>
