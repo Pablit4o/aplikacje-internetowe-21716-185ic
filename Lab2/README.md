@@ -1,50 +1,29 @@
-# aplikacje-internetowe-Lipski_LAB1-185ic
+# Aplikacje internetowe Paweł Lipski 185IC Lab2
 
 # Link do strony: https://blog-ringo.herokuapp.com/
 
-### Strona główna bloga
+### Opcja resetu hasła
 
 ![](screenshots/obraz1.png)
 
-### Osoby zalogowane mają możliwość dodawania postów
-
-![](screenshots/obraz2.1.png)
-
-### oraz edycji i usuwania postów
+### Podajemy email na który zostało założone konto, i na który zostanie wysłany mail
 
 ![](screenshots/obraz2.png)
 
-### modyfikowania postów
+####
 
 ![](screenshots/obraz3.png)
 
-### logowanie
+### Poczta dociera :tada::tada::tada::tada:
 
 ![](screenshots/obraz4.png)
 
-### rejestracja
+####
 
 ![](screenshots/obraz5.png)
 
-<hr />
-<b><p align="center"><h1> :heavy_exclamation_mark::boom: --- Update Część 2 Laborki --- :boom::heavy_exclamation_mark: </h1></p></b>
+#### Będąc zalogowanym można zmienić hasło do konta
 
-### Opcja zmieny hasła
+![](screenshots/obraz1.png)
 
-![](screenshots/obraz7.png)
-
-###
-
-![](screenshots/obraz6.png)
-
-### Opcja resetu hasła
-
-![](screenshots/obraz8.png)
-
-#### Problemem jest to, że po zmarnowanych 10h wciąż nie udało mi się tego zmienić :disappointed_relieved::gun:
-
-![](screenshots/obraz9.png)
-
-### Ale przynajmniej poczta dochodzi :tada::tada::unamused::tada::tada:
-
-![](screenshots/obraz10.png)
+![](screenshots/obraz1.png)
