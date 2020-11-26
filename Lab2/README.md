@@ -18,12 +18,12 @@
 
 ![](screenshots/obraz4.png)
 
-####
+#### Po kliknięciu na link użytkownik jest przenoszony do zakładki zmiany hasła
 
 ![](screenshots/obraz5.png)
 
 #### Będąc zalogowanym można zmienić hasło do konta
 
-![](screenshots/obraz1.png)
+![](screenshots/obraz6.png)
 
-![](screenshots/obraz1.png)
+![](screenshots/obraz7.png)
