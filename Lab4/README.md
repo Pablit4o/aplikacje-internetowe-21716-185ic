@@ -1,19 +1,9 @@
-# Aplikacje internetowe Paweł Lipski 185IC Lab3
+# Aplikacje internetowe Paweł Lipski 185IC Lab4
 
-# Link do strony: https://blog-ringo.herokuapp.com/
-
-### Możliwość logowania za pomocą social mediów (Github lub Google)
+### Zrzut ekranu działającego Swagger API
 
 ![](screenshots/obraz1.png)
 
-### Logowanie za pomocą konta Github
+### Zrzut ekranu Django REST framework
 
 ![](screenshots/obraz2.png)
-
-### Moja nazwa użytkownika po zalogowaniu na pomocą Github
-
-![](screenshots/obraz3.png)
-
-### Logowanie za pomocą konta Google
-
-![](screenshots/obraz4.png)
