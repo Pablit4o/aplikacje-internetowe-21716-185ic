@@ -2,7 +2,7 @@
 
 <hr>
 
-### > Zrzut ekranu działającego Swagger API
+> ### Zrzut ekranu działającego Swagger API
 
 <img style="border:2px solid black !important" src='screenshots/obraz1.png'>
 
@@ -14,12 +14,12 @@
 
 <hr>
 
-### > Zrzut ekranu Django REST framework
+> ###  Zrzut ekranu Django REST framework
 
 ![](screenshots/obraz2.png)
 
 <hr>
 
-### > Zrzut ekranu Redoc
+> ###  Zrzut ekranu Redoc
 
 ![](screenshots/obraz3.png)
