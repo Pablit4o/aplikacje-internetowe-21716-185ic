@@ -1,8 +1,6 @@
-<style>
-    img{
-        border: 2px solid #555;
-    }
-</style>
+img[src~="border"] {
+   border: 2px solid black;
+}
 
 # Aplikacje internetowe Paweł Lipski 185IC Lab4
 
@@ -10,10 +8,10 @@
 
 ### Zrzut ekranu działającego Swagger API
 
-<img src='screenshots/obraz1.png'>
+![](screenshots/obraz1.png# border)
 
 <hr>
 
 ### Zrzut ekranu Django REST framework
 
-![](screenshots/obraz2.png)
+![](screenshots/obraz2.png# border)
