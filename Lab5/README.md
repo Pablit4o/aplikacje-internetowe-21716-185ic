@@ -39,4 +39,17 @@
 <img src='screenshots/obraz6.png' />
 
 <hr>
+
+> ### Scrap z użyciem django
+> #### w pole url należy podać link, a do pola typ należy podać jakie `<tagmane>` ma być wyszukany
+
+<img src='screenshots/obraz7.png' />
+
+<hr>
+
+> ### Wynik działania programu
+
+<img src='screenshots/obraz8.png' />
+
+<hr>
  
