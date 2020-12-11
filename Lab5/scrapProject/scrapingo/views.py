@@ -11,7 +11,7 @@ def contact(request):
             typ = form.cleaned_data['typ']
             source = requests.get(url)
             soup = BeautifulSoup(source.content, 'html5lib')
-            headings = soup.findAll(typ)
+            headings = soup.find_all(typ)
             info = []
             for hth in headings:
                 info.append(hth.text)
