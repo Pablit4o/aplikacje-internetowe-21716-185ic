@@ -12,6 +12,7 @@ def contact(request):
             source = requests.get(url)
             soup = BeautifulSoup(source.content, 'html5lib')
             headings = soup.find_all(typ)
+            headings = headings[1:]
             info = []
             for hth in headings:
                 info.append(hth.text)
