@@ -2,27 +2,27 @@
 
 <hr>
 
-> #### `pip3 install html5lib requests lxml bs4`
+#### `pip3 install html5lib requests lxml bs4`
 
-> ### Pobranie danych lxml
+### Pobranie danych lxml
 
 <img src='screenshots/obraz1.png' />
 
 <hr>
 
-> ### Wynik kodu:
+### Wynik kodu:
 
 <img src='screenshots/obraz2.png' />
 
 <hr>
 
-> ### Pobranie danych json
+### Pobranie danych json
 
 <img src='screenshots/obraz3.png' />
 
 <hr>
 
-> ### Wynik kodu:
+### Wynik kodu:
 
 <img src='screenshots/obraz4.png' />
 
@@ -34,20 +34,20 @@
 
 <hr>
 
-> ### Wynik kodu:
+### Wynik kodu:
 
 <img src='screenshots/obraz6.png' />
 
 <hr>
 
-> ### Scrap z użyciem django
-> #### w pole url należy podać link, a do pola typ należy podać jakie `<tagmane>` ma być wyszukany
+### Scrap z użyciem django
+#### Do pola url należy podać link, a do pola typ należy podać jaki `<tagmane>` ma być wyszukany
 
 <img src='screenshots/obraz7.png' />
 
 <hr>
 
-> ### Wynik działania programu
+### Wynik działania programu
 
 <img src='screenshots/obraz8.png' />
 
