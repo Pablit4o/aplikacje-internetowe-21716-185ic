@@ -2,24 +2,21 @@
 
 <hr>
 
-> ### Zrzut ekranu działającego Swagger API
+### Ekran logowania
+### W Cookies można zauważyć `crsftoken`
 
-<img style="border:2px solid black !important" src='screenshots/obraz1.png'>
-
-<hr>
-
-### 
-
-![](screenshots/obraz4.png)
+![](screenshots/obraz1.png)
 
 <hr>
 
-> ###  Zrzut ekranu Django REST framework
+### Po zalogowaniu, w Cookies powstaje `sessionid`
 
 ![](screenshots/obraz2.png)
 
 <hr>
 
-> ###  Zrzut ekranu Redoc
+###  Po pomyślnym zalogoawniu, w konsoli wyświetla się komunikat `Successfully logged in.` 
+###  Kliknięcie `WhoAmI`, w konsoli wyświetla login użytkownika
+###  Po pomyślnym wylogowaniu, w konsoli wyświetla się komunikat `Successfully logged out.` 
 
 ![](screenshots/obraz3.png)

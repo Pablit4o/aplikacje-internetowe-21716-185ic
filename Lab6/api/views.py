@@ -7,6 +7,8 @@ from django.views.decorators.http import require_POST
 from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.views import APIView
+from datetime import datetime
+from django.shortcuts import render
 
 
 def get_csrf(request):
@@ -57,3 +59,27 @@ class WhoAmIView(APIView):
     @staticmethod
     def get(request, format=None):
         return JsonResponse({'username': request.user.username})
+
+def index(request):
+
+    visits = int(request.COOKIES.get('visits', '1'))
+
+    reset_last_visit_time = False
+    response = render(request, 'build/index.html', visits)
+
+    if 'last_visit' in request.COOKIES:
+        last_visit = request.COOKIES['last_visit']
+        last_visit_time = datetime.strptime(last_visit[:-7], "%Y-%m-%d %H:%M:%S")
+
+        if (datetime.now() - last_visit_time).days > 0:
+            visits = visits + 1
+            reset_last_visit_time = True
+    else:
+        reset_last_visit_time = True
+        response = render(request, 'build/index.html', visits)
+
+    if reset_last_visit_time:
+        response.set_cookie('last_visit', datetime.now())
+        response.set_cookie('visits', visits)
+
+    return response
