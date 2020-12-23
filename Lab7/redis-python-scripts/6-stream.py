@@ -1,6 +1,6 @@
 from redis import Redis
 
-redis_connection = Redis(decode_responses=True)
+redis_connection = Redis(decode_responses=True, db=3)
 
 stream_name = 'testowy_strumien'
 

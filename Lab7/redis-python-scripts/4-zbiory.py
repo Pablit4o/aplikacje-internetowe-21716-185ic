@@ -1,6 +1,6 @@
 from redis import Redis
 
-redis_connection = Redis(decode_responses=True, db=1)
+redis_connection = Redis(decode_responses=True)
 
 redis_connection.sadd("key", "val1")
 redis_connection.sadd("key", "val2")
