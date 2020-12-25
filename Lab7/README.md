@@ -122,8 +122,8 @@
 
 <img src='screenshots/redis-python-scripts/obraz6.2.png' />
 
-#### Update                                                                           |
-#### Problem udało się rozwiązać po zainstalowaniu `Redis 5.0.10 for Windows` z linku V
+#### Update                                                             
+#### Problem udało się rozwiązać po zainstalowaniu `Redis 5.0.10 for Windows` z linku:
 #### https://github.com/tporadowski/redis/releases
 #### Najwidocznej problemem musiała być wersja redisa
 
