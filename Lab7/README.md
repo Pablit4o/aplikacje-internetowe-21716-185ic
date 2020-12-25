@@ -127,6 +127,9 @@
 #### https://github.com/tporadowski/redis/releases
 #### Najwidocznej problemem musiała być wersja redisa
 
+#### Wynik działającego już programu:
+<img src='screenshots/redis-python-scripts/obraz6.3.png' />
+
 <hr>
 
 #### Zadanie 7
