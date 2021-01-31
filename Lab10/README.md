@@ -1,4 +1,4 @@
-# Aplikacje internetowe Paweł Lipski 185IC Lab9
+# Aplikacje internetowe Paweł Lipski 185IC Lab10
 
 #### Django + React (aplikacja typu ToDo)
 #### Dodanie nowego elementu do listy.
