@@ -15,4 +15,4 @@
 
 #### Lista z możliwością zobaczenia szczegółów wybranego elementu z listy.
 
-<img src='screenshots/obraz3.png' />
+<img src='screenshots/obraz4.png' />
